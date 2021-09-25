@@ -20,19 +20,19 @@ namespace csharp_bmi_app
 
             if (Bmi < 18.5)
             {
-                Console.WriteLine("Underweight");
+                Console.WriteLine("You are Underweight");
             }
             else if (Bmi >= 18.5 && Bmi <= 24.9)
             {
-                Console.WriteLine("Normal");
+                Console.WriteLine("Your BMI is Normal");
             }
             else if (Bmi > 24.9 && Bmi <= 29.9)
             {
-                Console.WriteLine("Overweight");
+                Console.WriteLine("You are Overweight");
             }
             else
             {
-                Console.WriteLine("Obese");
+                Console.WriteLine("You are Obese");
             }
 
             Console.ReadKey();
