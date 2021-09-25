@@ -9,9 +9,9 @@ namespace csharp_bmi_app
             float Weight, Height;
             double Bmi;
             Console.WriteLine("*********BMI Calculator**********");
-            Console.WriteLine("Enter your weight(in Kg):");
+            Console.WriteLine("Enter your Weight(in Kg):");
             Weight = float.Parse(Console.ReadLine());
-            Console.WriteLine("Enter your height (in m):");
+            Console.WriteLine("Enter your Height (in m):");
             Height = float.Parse(Console.ReadLine());
             Bmi = (Weight / (Height * Height));
 
